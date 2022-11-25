@@ -1,0 +1,260 @@
+#top{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(145, 81, 161); */
+    background: linear-gradient(200deg,#196072,#333399);
+    text-align: center;
+    font-size: 33px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2px;
+    color: rgb(249, 248, 255);
+    box-shadow: 0px 3px 9px  rgba(131, 126, 126, 0.589);
+
+}
+#status{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: -2vh;
+    font-size: 25px;
+    left:3vh;
+}
+#status a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("back.jpg");
+    background-size: cover;
+}
+#iptdate{
+    padding: 2vh;
+}
+#contain,#contain1{
+    height: 390px;
+    width: 370px;
+    background: linear-gradient(2deg,#297c91,#474788);
+    border-radius: 10px; 
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+    margin: auto;
+    /* justify-content: center;
+    /* align-items: center; */
+    /* display: flex; */ 
+    text-align: center;
+    box-shadow: 9px 7px 9px 1px rgba(59, 56, 56, 0.589);
+}
+#contain1{
+    height: 100%;
+    margin-top: 10%;
+    width: 50%;
+    border: 1px solid rgb(184, 240, 184);
+}
+#ipt,#ipt1{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 250px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    color: black;
+    font-size: 17px;
+    box-shadow: 9px 7px 9px 1px rgba(34, 33, 33, 0.589);
+text-align: center;
+}
+#ipt1{
+    width: 400px;
+    padding-left:25px ;
+}
+#btn,#btn1{
+    width: 100px;
+    height: 30;
+    border: none;
+    background-color: rgb(26, 25, 25);
+    border-radius: 4px;
+    color: white;
+}
+#btn1{
+    width: 200px;
+padding: 10px;
+margin-bottom: 20%;}
+#btn:hover,#btn1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 94, 250);
+}
+#name{
+color: rgb(0, 0, 0);
+position: relative;
+float: right;
+padding-right: 5%;
+font-size: 4vh;
+font-family: Arial, Helvetica, sans-serif;
+bottom: 20%;
+
+}
+#button{
+    width: 100%;
+    height: 40%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button #atag{
+    width: 20%;
+    margin: 5%;
+    height: 15vh;
+    border: none;
+    background-color: rgb(63, 81, 139);
+    border-radius: 10px;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(255, 255, 255);
+    
+}
+#button #atag:hover{
+    background-color: rgb(84, 192, 224);
+box-shadow: 3px 4px 8px black;
+color: rgb(0, 0, 0);
+text-decoration: none;
+text-align: center;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+label{
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    display: none;
+}
+/* #doctor2{
+display:none;
+background-color: aquamarine;
+} */
+#mydiv{
+    width: 100%;
+    border: 1px solid #9494949c;
+    height: 50%;    
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 5vh;
+    padding-top: 0;
+    }
+#statusdiv{
+    width: 100%;
+    height:auto ;
+    text-align: center;
+}
+#statustbl{
+    width: 90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+text-align: center;
+margin-left: 5%;
+}
+#datediv{
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+#date{
+    width: 30%;
+    height: 70%;
+    background-color: rgb(63, 65, 150);
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    border-radius: 6px;
+    color: white    ;
+}
+#date input{
+    height:15%;
+}
+#datep{
+    top: 10%;
+}
+h3{
+    font-size: 4vh;
+    padding-bottom: 1%;
+}
+#idate{
+    position: relative;
+    background-color: green;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2vh;
+}
+#idate:hover{
+    background-color: rgb(35, 141, 35);
+    color: white;
+}
+#appodiv{
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+}
+#astatus{
+    width: 96%;
+    margin-left: 2%;
+    text-align: center;   
+
+}
+#astatus td ,#astatus tr ,#astatus {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: bolder;
+  }
+  #astatus th{
+    border-left: 1px solid black;
+    background-color: #202058;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+ 
+  #slide1{
+    width: 50%;
+    height: 30%;
+    background-color: yellowgreen;
+  }
+  #status button{
+    color: black;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+ 
+  }
+  .hidere2{
+    background-color: rgb(54, 72, 179);
+    height: 40px;
+    color: white;
+    border: none;
+  }
+  .hidere{
+    background-color: white;
+    border: none;
+    box-shadow: 4px 6px 5px rgb(83, 82, 82);
+    height: 25px;
+  }
+  
